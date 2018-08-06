@@ -1,0 +1,128 @@
+.websiteHeader{
+    height: 150px;
+}
+
+.header-container{
+    height:500px;
+    width: 100%;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text{
+    color: #FFFEFF;
+}
+
+.greeting{
+    color: #FFFEFF;
+    font-size:100px
+}
+
+.tell-more{
+    background-color: #F6D356;
+    font-size:14px;
+    height: 10%;
+    width: 15%;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.navContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2B2A2D;
+    font-size: 28px;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-text-r-narrow{
+    display:none;
+    text-transform: uppercase;
+}
+
+.nav-text-l{
+    color: #F6D356;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.header-menu-button{
+    background-color: #F6D356;
+    font-size:14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFEFF;
+    width: 80px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.menu-open{
+    display:flex;
+    flex-direction:column;
+    color: #FFFEFF;
+    background-color: #2B2A2D;
+    text-transform: uppercase;
+}
+
+.menu-text-narrow{
+    margin-left: 10px;
+}
+
+.menu-closed{
+    display:none
+}
+
+.nav-text-r-wide{
+    display:none
+}
+
+@media (min-width:992px){
+    .header-menu-button{
+        display:none;
+    }
+    .header-container{
+        height:500px;
+        width: 100%;
+        background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-text-r-wide{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        text-transform: uppercase;
+        font-size: 80%;
+        font-weight: 400;
+        color: #FFFEFF;
+        font-family: Montserrat;
+        letter-spacing: 1px;
+    }
+
+    .header-container{
+        width: 100%;
+        background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
